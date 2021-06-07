@@ -16,7 +16,7 @@ public class MenuSubModulo {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "3")
+	@Column(name = "id_submodulo")
 	private Integer id_submodulo;
 
 	@Column(name = "descripcion")

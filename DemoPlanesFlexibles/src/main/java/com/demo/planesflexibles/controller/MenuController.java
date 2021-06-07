@@ -22,6 +22,7 @@ public class MenuController {
 	
 	@GetMapping("/findid/{id}")
 	public Optional<Menu> findById(@PathVariable("id") int id){
+		
 		return repository.findById(id);
 	}
 	
